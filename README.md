@@ -1,2 +1,0 @@
-# practice-angular
-learning
