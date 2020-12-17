@@ -11,8 +11,9 @@ import { Router } from '@angular/router';
 export class HeroesComponent implements OnInit {
 
   heroes: Heroe[] = [];
+  disable: boolean = true;
 
-  constructor(  private _heroesServices: HeroesService, 
+  constructor(  private _heroesServices: HeroesService,
                 private router:Router ) {
   }
 
